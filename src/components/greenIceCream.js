@@ -3,7 +3,7 @@ import greenicecream from "../images/greenicecream.png"
 function GreenIceCream() {
   return (
     <div>
-      <img src={greenicecream} />
+      <img src={greenicecream} alt="green-ice-cream" />
     </div>
   );
 }

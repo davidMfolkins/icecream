@@ -3,7 +3,7 @@ import verticalicecream from "../images/verticalicecream.png"
 function HottestFlavours() {
   return (
     <div>
-      <img src={verticalicecream} />
+      <img src={verticalicecream} alt="hottest flavours" />
     </div>
   );
 }

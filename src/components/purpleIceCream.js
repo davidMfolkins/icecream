@@ -2,16 +2,21 @@ import purpleicecream from "../images/purpleicecream.png"
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(() => ({
-
+  text: {
+    color: "red",
+    position: "fixed",
+    top: "50%",
+    left: "30%"
+  },
 }));
 
 function PurpleIceCream() {
   const classes = useStyles();
-  
+
   return (
     <div>
-      <span>Get it</span>
-      <img src={purpleicecream} />
+      {/* <span className={classes.text}>Get it</span> */}
+      <img src={purpleicecream} alt="purple-ice-cream" />
     </div>
   );
 }
