@@ -16,15 +16,18 @@ const useStyles = makeStyles(() => ({
     margin: "60px 15%"
   },
   col2: {
+    position: 'relative',
     display: "flex",
     flexDirection: "column",
     flex: "5"
   },
   twoicecreams: {
+    position: 'relative',
     display: "flex",
     flexDirection: "row",
   },
   image4lg: {
+    position: 'relative',
     display: "block",
     flex: "1",
     marginTop: "32px",
@@ -34,23 +37,24 @@ const useStyles = makeStyles(() => ({
     display: "none"
   },
   image1lg: {
+    position: 'relative',
     display: "block",
   },
   image1sm: {
     display: "none"
   },
   image2: {
+    position: 'relative',
     marginLeft: "80px"
   },
   image3: {
+    position: 'relative',
     marginLeft: "30px"
   },
   '@media screen and (max-width: 1200px)': {
     container: {
       display: "flex",
       flexDirection: "column",
-      // alignItems: "center",
-      // justifyContent: "center",
       margin: "0px"
     },
     col2: {
@@ -99,10 +103,10 @@ function App() {
       <div className={classes.col2}>
         <div className={classes.twoicecreams}>
           <div className={classes.image2}>
-            <GreenIceCream />
+            <PurpleIceCream />
           </div>
           <div className={classes.image3}>
-            <PurpleIceCream />
+            <GreenIceCream />
           </div>
         </div>
         <div className={classes.image4sm}>
