@@ -11,11 +11,11 @@ const useStyles = makeStyles(() => ({
     border: "3px solid white",
     padding: "10px 20px",
     borderRadius: "30px",
-    backgroundColor: "green",
+    backgroundColor: "#2c632b",
     fontSize: "18px"
   },
   img: {
-    border: "1px solid black"
+    border: "1px solid #636363"
   }
 }));
 

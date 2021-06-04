@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(() => ({
   img: {
-    border: "1px solid black"
+    border: "1px solid #636363"
   }
 }));
 
