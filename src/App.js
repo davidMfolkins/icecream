@@ -12,7 +12,7 @@ const useStyles = makeStyles(() => ({
     flexDirection: "row",
     backgroundColor: "#ffebc7",
     alignItems: "center",
-      justifyContent: "center",
+    justifyContent: "center",
     margin: "60px 15%"
   },
   col2: {
@@ -27,7 +27,7 @@ const useStyles = makeStyles(() => ({
   image4lg: {
     display: "block",
     flex: "1",
-    marginTop: "56px",
+    marginTop: "34px",
     marginLeft: "80px"
   },
   image4sm: {
@@ -43,14 +43,14 @@ const useStyles = makeStyles(() => ({
     marginLeft: "80px"
   },
   image3: {
-    marginLeft: "40px"
+    marginLeft: "30px"
   },
   '@media screen and (max-width: 1200px)': {
     container: {
       display: "flex",
       flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
+      // alignItems: "center",
+      // justifyContent: "center",
       margin: "0px"
     },
     col2: {

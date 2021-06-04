@@ -16,7 +16,7 @@ function PurpleIceCream() {
   return (
     <div>
       {/* <span className={classes.text}>Get it</span> */}
-      <img src={purpleicecream} alt="purple-ice-cream" />
+      <img src={purpleicecream} width="415px" alt="purple-ice-cream" />
     </div>
   );
 }
