@@ -1,7 +1,7 @@
-import GreenIceCream from "./components/greenIceCream"
-import PurpleIceCream from "./components/purpleIceCream"
-import Philosophy from "./components/philosophy"
-import HottestFlavours from "./components/hottestFlavours"
+import GreenIceCream from "./components/GreenIceCream"
+import PurpleIceCream from "./components/PurpleIceCream"
+import Philosophy from "./components/Philosophy"
+import HottestFlavours from "./components/HottestFlavours"
 
 function App() {
   return (

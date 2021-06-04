@@ -1,7 +1,9 @@
+import purpleicecream from "../images/purpleicecream.png"
+
 function PurpleIceCream() {
   return (
     <div>
-      PurpleIceCream
+      <img src={purpleicecream} />
     </div>
   );
 }

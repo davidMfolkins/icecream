@@ -1,7 +1,9 @@
+import horizontalicecream from "../images/horizontalicecream.png"
+
 function Philosophy() {
   return (
     <div>
-      Philosophy
+      <img src={horizontalicecream} />
     </div>
   );
 }

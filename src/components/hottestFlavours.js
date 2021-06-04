@@ -1,7 +1,9 @@
+import verticalicecream from "../images/verticalicecream.png"
+
 function HottestFlavours() {
   return (
     <div>
-      HottestFlavours
+      <img src={verticalicecream} />
     </div>
   );
 }
