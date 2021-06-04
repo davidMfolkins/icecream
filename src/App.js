@@ -27,7 +27,7 @@ const useStyles = makeStyles(() => ({
   image4lg: {
     display: "block",
     flex: "1",
-    marginTop: "34px",
+    marginTop: "32px",
     marginLeft: "80px"
   },
   image4sm: {

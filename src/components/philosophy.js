@@ -1,9 +1,18 @@
 import horizontalicecream from "../images/horizontalicecream.png"
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(() => ({
+  img: {
+    border: "1px solid black"
+  }
+}));
 
 function Philosophy() {
+  const classes = useStyles();
+
   return (
     <div>
-      <img src={horizontalicecream} width="860px" alt="philosophy" />
+      <img src={horizontalicecream} className={classes.img} width="862px" alt="philosophy" />
     </div>
   );
 }
