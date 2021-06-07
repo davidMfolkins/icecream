@@ -10,7 +10,6 @@ const useStyles = makeStyles(() => ({
     top: "71%",
     backgroundColor: "#3b3b3b",
     width: "290px",
-
     padding: "20px",
   },
   h1: {
