@@ -6,19 +6,18 @@ const useStyles = makeStyles(() => ({
     color: "white",
     zIndex: "100",
     position: "absolute",
-    top: "32%",
-    height: "140px",
+    top: "20%",
     backdropFilter: "blur(2px)",
     textAlign: "center",
     marginLeft: "2px",
-    width: "414px"
+    width: "413px"
   },
   h1: {
     textShadow: "3px 3px 5px #000000"
   },
   img: {
     border: "1px solid #636363"
-  }
+  },
 }));
 
 function ManyIceCream() {

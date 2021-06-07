@@ -13,7 +13,8 @@ const useStyles = makeStyles(() => ({
     backgroundColor: "#ffebc7",
     alignItems: "center",
     justifyContent: "center",
-    margin: "60px 15%"
+    marginTop: "5%",
+    marginLeft: "15%"
   },
   col2: {
     position: 'relative',
