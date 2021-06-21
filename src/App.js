@@ -14,7 +14,8 @@ const useStyles = makeStyles(() => ({
     alignItems: "center",
     justifyContent: "center",
     marginTop: "5%",
-    marginLeft: "15%"
+    marginLeft: "15%",
+    marginRight: "15%"
   },
   col2: {
     position: 'relative',
