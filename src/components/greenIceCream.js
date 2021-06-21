@@ -24,7 +24,7 @@ function GreenIceCream() {
   
   return (
     <div>
-      <span className={classes.text}>Get it</span>
+      <button className={classes.text}>Get it</button>
       <img src={greenicecream} className={classes.img} width="415px" alt="green-ice-cream" />
     </div>
   );
