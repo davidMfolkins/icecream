@@ -14,6 +14,7 @@ const useStyles = makeStyles(() => ({
     alignItems: "center",
     justifyContent: "center",
     marginTop: "5%",
+    marginBottom: "5%",
     marginLeft: "15%",
     marginRight: "15%"
   },
