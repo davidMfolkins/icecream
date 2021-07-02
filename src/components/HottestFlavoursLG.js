@@ -25,7 +25,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-function HottestFlavours() {
+function HottestFlavoursLG() {
   const classes = useStyles();
   
   return (
@@ -40,4 +40,4 @@ function HottestFlavours() {
   );
 }
 
-export default HottestFlavours;
+export default HottestFlavoursLG;

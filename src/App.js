@@ -2,33 +2,33 @@ import useStyles from "./Styles"
 import GreenIceCream from "./components/GreenIceCream"
 import PurpleIceCream from "./components/PurpleIceCream"
 import Philosophy from "./components/Philosophy"
-import HottestFlavours from "./components/HottestFlavours"
+import HottestFlavoursLG from "./components/HottestFlavoursLG"
 import FourCones from "./components/FourCones"
-import ManyIceCream from "./components/ManyIceCream"
+import HottestFlavoursSM from "./components/HottestFlavoursSM"
 
 function App() {
   const classes = useStyles();
   return (
     <div className={classes.container}>
-      <div className={classes.image1lg}>
-        <HottestFlavours />
+      <div className={classes.hottestFlavoursLG}>
+        <HottestFlavoursLG />
       </div>
-      <div className={classes.image1sm}>
-        <ManyIceCream />
+      <div className={classes.hottestFlavoursSM}>
+        <HottestFlavoursSM />
       </div>
       <div className={classes.col2}>
         <div className={classes.twoicecreams}>
-          <div className={classes.image2}>
+          <div className={classes.purpleIceCream}>
             <PurpleIceCream />
           </div>
-          <div className={classes.image3}>
+          <div className={classes.greenIceCream}>
             <GreenIceCream />
           </div>
         </div>
-        <div className={classes.image4sm}>
+        <div className={classes.fourCones}>
           <FourCones />
         </div>
-        <div className={classes.image4lg}>
+        <div className={classes.philosophy}>
           <Philosophy />
         </div>
       </div>

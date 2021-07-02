@@ -20,7 +20,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-function ManyIceCream() {
+function HottestFlavoursSM() {
   const classes = useStyles();
   
   return (
@@ -34,4 +34,4 @@ function ManyIceCream() {
   );
 }
 
-export default ManyIceCream;
+export default HottestFlavoursSM;

@@ -23,28 +23,28 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     flexDirection: "row",
   },
-  image4lg: {
+  philosophy: {
     position: 'relative',
     display: "block",
     flex: "1",
     marginTop: "32px",
     marginLeft: "80px"
   },
-  image4sm: {
+  fourCones: {
     display: "none"
   },
-  image1lg: {
+  hottestFlavoursLG: {
     position: 'relative',
     display: "block",
   },
-  image1sm: {
+  hottestFlavoursSM: {
     display: "none"
   },
-  image2: {
+  purpleIceCream: {
     position: 'relative',
     marginLeft: "80px"
   },
-  image3: {
+  greenIceCream: {
     position: 'relative',
     marginLeft: "30px"
   },
@@ -62,24 +62,24 @@ const useStyles = makeStyles(() => ({
       display: "flex",
       flexDirection: "column",
     },
-    image4lg: {
+    philosophy: {
       display: "none"
     },
-    image4sm: {
+    fourCones: {
       display: "block",
     },
-    image1lg: {
+    hottestFlavoursLG: {
       display: "none"
     },
-    image1sm: {
+    hottestFlavoursSM: {
       display: "block",
       marginBottom: "20px"
     },
-    image2: {
+    purpleIceCream: {
       marginBottom: "20px",
       marginLeft: "0px"
     },
-    image3: {
+    greenIceCream: {
       marginBottom: "20px",
       marginLeft: "0px"
     }
