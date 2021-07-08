@@ -6,11 +6,10 @@ const useStyles = makeStyles(() => ({
     color: "white",
     zIndex: "100",
     position: "absolute",
-    top: "20%",
+    top: "200px",
     backdropFilter: "blur(2px)",
     textAlign: "center",
-    marginLeft: "2px",
-    width: "413px"
+    width: "415px"
   },
   h1: {
     textShadow: "3px 3px 5px #000000"
