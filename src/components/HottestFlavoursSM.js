@@ -9,7 +9,8 @@ const useStyles = makeStyles(() => ({
     top: "200px",
     backdropFilter: "blur(2px)",
     textAlign: "center",
-    width: "415px"
+    width: "375px",
+    marginLeft: "22px"
   },
   h1: {
     textShadow: "3px 3px 5px #000000"
